@@ -22,12 +22,14 @@ Taxonomies for products and languages: https://review.docs.microsoft.com/new-hop
 
 This template collection is to help you create Flows in Power Automate to automate several scenarios.
 
-## Contents
+## Templates
 
 
-| File/folder       | Description                                |
+| File      | Description                                |
 |-------------------|--------------------------------------------|
-| `templates/AutoApproveRequests/AutoApproveOfferShiftRequests.zip`  | Allows a team manager to automatically approve Offer Shift requests  |
+| `templates/AutoApproveRequests/AutoApproveOfferShiftRequests.zip`  | Allows a team manager to automatically approve requests to Offer a Shift  |
+| `templates/AutoApproveRequests/AutoApproveOpenShiftRequest.zip`  | Allows a team manager to automatically approve a request for an Open Shift  |
+| `templates/AutoApproveRequests/AutoApproveOpenShiftRequestwithEmailNotification.zip`| Allows a team manager to send the user an email after automatically approving a request for an Open Shift  |
 
 ## Prerequisites
 
