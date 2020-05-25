@@ -24,12 +24,38 @@ This template collection is to help you create Flows in Power Automate to automa
 
 ## Templates
 
+1. [Auto Approve Offer Shift Requests](#Auto-Approve-Offer-Shift-Requests)
+2. [Auto Approve Open Shift Requests](#Auto-Approve-Open-Shift-Requests)
+3. [Auto Approve Swap Shifts Requests and Send Email Notification](#Auto-Approve-Swap-Shifts-Requests-and-Send-Email-Notification)
 
-| File      | Description                                |
-|-------------------|--------------------------------------------|
-| `templates/AutoApproveRequests/AutoApproveOfferShiftRequests.zip`  | Allows a team manager to automatically approve requests to Offer a Shift  |
-| `templates/AutoApproveRequests/AutoApproveOpenShiftRequest.zip`  | Allows a team manager to automatically approve a request for an Open Shift  |
-| `templates/AutoApproveRequests/AutoApproveOpenShiftRequestwithEmailNotification.zip`| Allows a team manager to send the user an email after automatically approving a request for an Open Shift  |
+### Auto Approve Offer Shift Requests
+Allows a team manager to automatically approve Offer Shift requests in the team.
+
+> When one team member offers a shift to another member, and the request is accepted by that member. It it then sent to the team manager for approval. With this flow setup to run by a team manager, it'll automatically approve any offer shift requests the manager receives.
+
+Template: [`templates/AutoApproveRequests/AutoApproveOfferShiftRequests.zip`](/templates/AutoApproveRequests/AutoApproveOfferShiftRequests.zip) 
+[See template import instructions](#Using-the-templates)
+![Auto Approve Offer Shift Request](/images/AutoApproveOfferShiftRequest.png)
+
+### Auto Approve Open Shift Requests
+Allows a team manager to automatically approve Open Shift requests in the team.
+
+> When a team member requests an open shift, the request is sent to the team manager for approval. With this flow setup to run by a team manager, it'll automatically approve any open shift requests the manager receives.
+
+Template: [`templates/AutoApproveRequests/AutoApproveOpenShiftRequest.zip`](/templates/AutoApproveRequests/AutoApproveOpenShiftRequest.zip) 
+[See template import instructions](#Using-the-templates)
+![Auto Approve Open Shift Request](/images/AutoApproveOpenShiftRequest.png)
+
+### Auto Approve Swap Shifts Requests and Send Email Notification
+Allows a team manager to automatically approve Swap Shift requests in the team and send an email notifying the affected team members.
+
+> When one team member sends a request to swap shifts to another member, and the request is accepted by that member. It it then sent to the team manager for approval. With this flow setup to run by a team manager, it'll automatically approve any swap shifts requests the manager receives. It will also send an email notification to both members notifying them that the request was approved.
+
+Template: [`templates/AutoApproveRequests/AutoAcceptSwapRequestsandEmailNotify.zip`](/templates/AutoApproveRequests/AutoAcceptSwapRequestsandEmailNotify.zip) 
+[See template import instructions](#Using-the-templates)
+![Auto Approve Offer Shift Request](/images/AutoApproveSwapShiftsRequestAndEmail.png)
+
+
 
 ## Prerequisites
 
@@ -47,8 +73,13 @@ Create your team in the Shifts app in [Microsoft Teams](https://teams.microsoft.
     - Wait for it to upload
     - Under "Review Package Content" > Import Options
         - Choose to "Create as new" Flow
-    - Under "Review Package Content" > Related resources
-        - Click on "Select during import" and select the account you want to use
+    - Under "Review Package Content" > "Related resources"
+        - Click on "Select during import" to select the account connection to use with each resource type.
+        - If you don't have an existing connection to the resource type, create a new connection to the resources that the Flow uses. 
+        - The resource types should be listed during the import, and can include
+            - Microsoft Teams (The account you use to sign in here, typically has to be a owner/manager of the team)
+            - Office 365 Users
+            - Office 365 Outlook
     - Click the "Import" button
 - Configure the imported Flow:
     - Navigate to the new Flow that was imported
