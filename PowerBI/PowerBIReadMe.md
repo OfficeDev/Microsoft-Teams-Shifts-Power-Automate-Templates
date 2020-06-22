@@ -4,7 +4,7 @@
 1. Download excel doc (save to onedrive or a location flow can access), Flow template, PowerBI template
 2. Navigate to [https://flow.microsoft.com/](https://flow.microsoft.com/)
 3. Import flow template and edit it 
-![Alt](/images/importbtn.png "Title")
+![Alt](/importbtn.png)
 4. On editing the uploaded flow
   * Select a team you would like reporting on
   * Update location/library/file/table to the location of the excel doc
