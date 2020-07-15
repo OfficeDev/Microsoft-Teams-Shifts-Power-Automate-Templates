@@ -27,6 +27,7 @@ This template collection is to help you create Flows in Power Automate to automa
 1. [Auto Approve Offer Shift Requests](#Auto-Approve-Offer-Shift-Requests)
 2. [Auto Approve Open Shift Requests](#Auto-Approve-Open-Shift-Requests)
 3. [Auto Approve Swap Shifts Requests and Send Email Notification](#Auto-Approve-Swap-Shifts-Requests-and-Send-Email-Notification)
+3. [Auto Convert Shift to Open Shift](#Auto-Convert-Shift-to-Open-Shift)
 
 ### Auto Approve Offer Shift Requests
 Allows a team manager to automatically approve Offer Shift requests in the team.
@@ -55,7 +56,14 @@ Template: [`templates/AutoApproveRequests/AutoAcceptSwapRequestsandEmailNotify.z
 [See template import instructions](#Using-the-templates)
 ![Auto Approve Offer Shift Request](/images/AutoApproveSwapShiftsRequestAndEmail.png)
 
+### Auto Convert Shift to Open Shift
+Allows a team manager to automatically approve the process of converting a Shift into an Open Shift.
 
+> The team member should offer the shift they want to return back to the team manager. With this flow setup to run by a team manager, it'll automatically search for any matching open shifts (with the same start time, end time, theme and group). If a matching Open Shift is found, the slot count is incremented; otherwise a new Open Shift is created from the information in the Shift.
+
+Template: [`templates/AutoApproveRequests/AutoConvertShiftToOpenShift.zip`](/templates/AutoApproveRequests/AutoConvertShiftToOpenShift.zip) 
+[See template import instructions](#Using-the-templates)
+![Auto Convert Shift to Open Shift](/images/AutoConvertShiftToOpenShift.png)
 
 ## Prerequisites
 
