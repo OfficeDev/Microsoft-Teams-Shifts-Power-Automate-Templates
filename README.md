@@ -27,7 +27,8 @@ This template collection is to help you create Flows in Power Automate to automa
 1. [Auto Approve Offer Shift Requests](#Auto-Approve-Offer-Shift-Requests)
 2. [Auto Approve Open Shift Requests](#Auto-Approve-Open-Shift-Requests)
 3. [Auto Approve Swap Shifts Requests and Send Email Notification](#Auto-Approve-Swap-Shifts-Requests-and-Send-Email-Notification)
-3. [Auto Convert Shift to Open Shift](#Auto-Convert-Shift-to-Open-Shift)
+4. [Auto Convert Shift to Open Shift](#Auto-Convert-Shift-to-Open-Shift)
+5. [Share My Shifts as iCalendar Feed](#Share-My-Shifts-as-iCalendar-Feed)
 
 ### Auto Approve Offer Shift Requests
 Allows a team manager to automatically approve Offer Shift requests in the team.
@@ -64,6 +65,15 @@ Allows a team manager to automatically approve the process of converting a Shift
 Template: [`templates/AutoApproveRequests/AutoConvertShiftToOpenShift.zip`](/templates/AutoApproveRequests/AutoConvertShiftToOpenShift.zip) 
 [See template import instructions](#Using-the-templates)
 ![Auto Convert Shift to Open Shift](/images/AutoConvertShiftToOpenShift.png)
+
+### Share My Shifts as iCalendar Feed
+Allows a user to publish their shifts as an [Internet Calendar](https://en.wikipedia.org/wiki/ICalendar), so they can view their shifts schedule in Outlook or their mobile device calendars
+
+> After importing the template into a new Flow, copy the iCalendar feed URL from the "When a HTTP request is received" action (![see screenshot](/images/ShareMyShiftsAsICalendarFeed.png)). This URL can then be added as a subscription into most calendar applications like [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df) and natively on your iOS/Android devices. Your calendar should poll this Flow every hour and automatically get updates to your schedule.
+
+Template: [`templates/Calendar/ShareMyShiftsasiCalendarFeed.zip`](/templates/Calendar/ShareMyShiftsasiCalendarFeed.zip) 
+[See template import instructions](#Using-the-templates)
+![Auto Convert Shift to Open Shift](/images/ShareMyShiftsAsICalendarFeed.png)
 
 ## Prerequisites
 
