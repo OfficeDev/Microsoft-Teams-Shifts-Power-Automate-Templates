@@ -69,7 +69,11 @@ Template: [`templates/AutoApproveRequests/AutoConvertShiftToOpenShift.zip`](/tem
 ### Share My Shifts as iCalendar Feed
 Allows a user to publish their shifts as an [Internet Calendar](https://en.wikipedia.org/wiki/ICalendar), so they can view their shifts schedule in Outlook or their mobile device calendars
 
-> After importing the template into a new Flow, copy the iCalendar feed URL from the "When a HTTP request is received" action (![see screenshot](/images/ShareMyShiftsAsICalendarFeed.png)). This URL can then be added as a subscription into most calendar applications like [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df) and natively on your iOS/Android devices. Your calendar should poll this Flow every hour and automatically get updates to your schedule.
+> After importing the template into a new Flow, copy the iCalendar feed URL from the "When a HTTP request is received" action:
+![screenshot](/images/iCalendarFeedLink.png)
+This URL can then be added as a subscription into most calendar applications like [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df) and natively on your iOS/Android devices. 
+![screenshot](/images/AddCalendarFromInternet.png)
+Your calendar app should poll this Flow every hour and automatically get updates to your schedule.
 
 Template: [`templates/Calendar/ShareMyShiftsasiCalendarFeed.zip`](/templates/Calendar/ShareMyShiftsasiCalendarFeed.zip) 
 [See template import instructions](#Using-the-templates)
