@@ -71,9 +71,9 @@ Allows a user to publish their shifts as an [Internet Calendar](https://en.wikip
 
 > After importing the template into a new Flow, copy the iCalendar feed URL from the "When a HTTP request is received" action:
 ![screenshot](/images/iCalendarFeedLink.png)
-This URL can then be added as a subscription into most calendar applications like [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df) and natively on your iOS/Android devices. 
+>This URL can then be added as a subscription into most calendar applications like [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df) and natively on your iOS/Android devices. 
 ![screenshot](/images/AddCalendarFromInternet.png)
-Your calendar app should poll this Flow every hour and automatically get updates to your schedule.
+>Your calendar app should poll this Flow every hour and automatically get updates to your schedule.
 
 Template: [`templates/Calendar/ShareMyShiftsasiCalendarFeed.zip`](/templates/Calendar/ShareMyShiftsasiCalendarFeed.zip) 
 [See template import instructions](#Using-the-templates)
