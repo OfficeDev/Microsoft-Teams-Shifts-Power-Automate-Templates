@@ -112,6 +112,8 @@ Create your team in the Shifts app in [Microsoft Teams](https://teams.microsoft.
 
 **PowerBI Dashboard with Display Name:**
 
+Template: [`/PowerBI/Shifts%20Template%20with%20UserName.pbit`](/PowerBI/Shifts%20Template%20with%20UserName.pbit) 
+
 1. Download excel doc (save to onedrive or a location flow can access), Flow template, PowerBI template
 2. Navigate to [https://flow.microsoft.com/](https://flow.microsoft.com/)
 3. Import flow template and edit it 
@@ -127,11 +129,12 @@ Create your team in the Shifts app in [Microsoft Teams](https://teams.microsoft.
 5. Open the PowerBI template and enter the TeamID (not the name), StartDateTime, EndDateTime (ex: 2020-05-01T00:00:00.000Z), ExcellFileLocation
 6. Click load
 
-**PowerBI Dashboard with Display Name:**
+**PowerBI Dashboard without Display Name:**
+
+Template: [`/PowerBI/Shifts%20Template.pbit`](/PowerBI/Shifts%20Template.pbit) 
 
 1. Open the PowerBI template and enter the TeamID (not the name), StartDateTime, EndDateTime (ex: 2020-05-01T00:00:00.000Z)
 2. Click load
-
 
 
 ## Contributing
