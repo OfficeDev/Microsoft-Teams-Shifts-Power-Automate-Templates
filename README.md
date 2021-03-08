@@ -26,6 +26,23 @@ The Power Automate/Flow Templates templates are now available officially: https:
 
 ## PowerBI Templates
 
+**PowerBI Template Properties (filter by date/group):**
+
+Page One:
+Hours worked by userid/name
+Open shifts count by day and group name
+All shifts count / Open shifts count / Number of groups
+
+Page Two:
+Open shifts count by datetime and group name
+All shifts count by datetime and group name
+All shifts count / Open shifts count / Number of groups / Longest Shift / Shortest Shift / Average Shift / Longest open Shift / Shortest Open Shift / Average Open Shift
+
+Page Three:
+Open Hours Worked by datetime and group name
+Hours worked by datetime and group name
+All shifts count / Open shifts count / Number of groups / Longest Shift / Shortest Shift / Average Shift / Longest open Shift / Shortest Open Shift / Average Open Shift
+
 **PowerBI Dashboard with Display Name:**
 
 Template: [`/PowerBI/Shifts%20Template%20with%20UserName.pbit`](/PowerBI/Shifts%20Template%20with%20UserName.pbit) 
@@ -33,6 +50,7 @@ Template: [`/PowerBI/Shifts%20Template%20with%20UserName.pbit`](/PowerBI/Shifts%
 1. Download excel doc (save to onedrive or a location flow can access), Flow template, PowerBI template
 2. Navigate to [https://flow.microsoft.com/](https://flow.microsoft.com/)
 3. Import flow template and edit it 
+
 ![Alt](/PowerBI/images/importbtn.png?raw=true)
 4. On editing the uploaded flow
   * Select a team you would like reporting on
